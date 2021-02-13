@@ -277,13 +277,6 @@ footer{
     width: 100%;
     margin: 1rem auto;
   }
-  .order-container{
-    width: 100%;
-    margin: auto;
-  }
-  form{
-    width: 100%;
-  }
   .btn-service{
     display: block;
     margin: 1rem auto;
@@ -346,13 +339,6 @@ footer{
   iframe{
     width: 100%;
     margin: 1rem auto;
-  }
-  .order-container{
-    width: 100%;
-    margin: auto;
-  }
-  form{
-    width: 100%;
   }
   .btn-service{
     display: block;
@@ -417,13 +403,6 @@ footer{
     width: 100%;
     margin: 1rem auto;
   }
-  .order-container{
-    width: 100%;
-    margin: auto;
-  }
-  form{
-    width: 100%;
-  }
   .btn-service{
     display: block;
     margin: 1rem auto;
@@ -486,13 +465,6 @@ footer{
   iframe{
     width: 100%;
     margin: 1rem auto;
-  }
-  .order-container{
-    width: 100%;
-    margin: auto;
-  }
-  form{
-    width: 100%;
   }
   .btn-service{
     display: block;
@@ -589,13 +561,6 @@ footer{
     margin: 1rem 0;
     width: 100%;
   }
-  .order-container{
-    width: 100%;
-    margin: auto;
-  }
-  form{
-    width: 100%;
-  }
 }
 @media (min-width:1024px) and (max-width: 1366px){
   .navbar{
@@ -643,13 +608,6 @@ footer{
   }
   .how-we-work img{
     margin: 1rem 0;
-    width: 100%;
-  }
-  .order-container{
-    width: 100%;
-    margin: auto;
-  }
-  form{
     width: 100%;
   }
 }
