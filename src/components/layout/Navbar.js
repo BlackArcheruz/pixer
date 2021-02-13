@@ -2,8 +2,12 @@ import logo from '../images/pixer-logo.svg';
 
 const Navbar = () => {
     return (
+        <header>
+            <div className="container">
         <nav className="navbar">
+            <div className="logo">
             <a href="/"><img src={logo} alt=""/></a>
+            </div>
             <ul>
             <li><a href="/">Bosh sahifa</a></li>
             <li><a href="/xizmatlar">Xizmatlar</a></li>
@@ -12,8 +16,10 @@ const Navbar = () => {
             <li><a href="/blog">Blog</a></li>
             <li><a href="/kontaktlar">Kontaktlar</a></li>
             <li><button className="btn btn-primary">+998 90 921 37 11</button></li>
-            </ul>  
+            </ul> 
         </nav>
+        </div>
+        </header>
     )
 }
 

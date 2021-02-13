@@ -16,7 +16,7 @@ const HowWeWork = () => {
         <div className="h-w-k" data-aos="fade-up" data-aos-anchor-placement="top-center">
             <h2>Biz qanday ishlaymiz?</h2>
             <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget <br/> sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
-            <div className="h-w-k-container">
+            <div className="container">
             <div className="how-we-work">   
             <img src={step} alt=""className="left-img"/>
             <div className="col-md-2">
