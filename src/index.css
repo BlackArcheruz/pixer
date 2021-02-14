@@ -43,6 +43,9 @@ header{
 .navbar ul li{
   padding: 10px;
 }
+.navbar ul li:last-child{
+  padding: 0;
+}
 .navbar ul li a{
   color: #000;
 }
@@ -104,7 +107,7 @@ header{
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
   padding: 24px;
   border-radius: 5px;
-  width: 320px;
+  width: 300px;
 }
 .service h3{
   margin: 15px;
@@ -122,7 +125,7 @@ header{
   align-items: center;
   text-align: center;
   padding: 2rem;
-  margin: 3rem 0;
+  margin: 3rem auto;
 }
 .h-w-k h2{
   margin: 20px;
@@ -137,7 +140,7 @@ header{
   align-items: center;
   text-align: left;
   padding: 20px;
-  margin: 5rem 0;
+  margin: 5rem auto;
 }
 .col-md-2 span{
   font-size: 20px;
@@ -145,6 +148,14 @@ header{
 .h-w-k-container{
   width: 75%;
   margin: auto;
+}
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+.media .content {
+  flex: 1;
+  padding: 10px;
 }
 .media {
   display: flex;
@@ -214,10 +225,10 @@ footer{
   padding: 2.5rem 0;
 }
 .site-copy{
-  width: 28.3%;
+  width: 26.6%;
 }
 .site-copy h3{
-  margin: 16px 0px;
+  margin: 16px auto;
 }
 .site-footer{
   display: flex;
@@ -228,7 +239,7 @@ footer{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 28.3%;
+  width: 26.6%;
 }
 .footer-nav a{
   color: #fff;
@@ -242,7 +253,7 @@ footer{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 28%;
+  width: 26.6%;
 }
 .socials-list h3{
   margin: 0 0 16px 0px;
