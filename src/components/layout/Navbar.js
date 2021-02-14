@@ -1,4 +1,5 @@
 import logo from '../images/pixer-logo.svg';
+import Sidebar from './Sidebar'
 
 const Navbar = () => {
     return (
@@ -16,7 +17,8 @@ const Navbar = () => {
             <li><a href="/blog">Blog</a></li>
             <li><a href="/kontaktlar">Kontaktlar</a></li>
             <li><button className="btn btn-primary">+998 90 921 37 11</button></li>
-            </ul> 
+            </ul>
+            <Sidebar/> 
         </nav>
         </div>
         </header>
