@@ -151,7 +151,7 @@ header{
 }
 .media {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 .media .content {
   flex: 1;
@@ -159,7 +159,7 @@ header{
 }
 .media {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 .media.flipped {
   flex-direction: row-reverse;
