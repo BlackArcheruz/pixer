@@ -13,10 +13,10 @@ const HowWeWork = () => {
     },[])
 
     return (
-        <div className="h-w-k" data-aos="fade-up" data-aos-anchor-placement="top-center">
+        <div className="h-w-k" data-aos="fade-up">
             <h2>Biz qanday ishlaymiz?</h2>
             <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget <br/> sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
-            <div className="container">
+            <div className="h-w-k-container">
             <div className="how-we-work">
             <div className="media">   
             <div className="image"><img src={step} alt=""className="left-img"/></div>
