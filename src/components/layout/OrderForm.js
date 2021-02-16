@@ -11,7 +11,7 @@ const OrderForm = () => {
         <div className="order-form">
             <div className="container o-f" data-aos="fade-down">
             <h2>Buyurtma berish</h2>
-            <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
+            <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget <br/> sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
             <form>
                 <input type="text" className="name" placeholder="Ismingiz" required/>
                 <input type="tel" className="name" placeholder="Telefon Raqam" required/>

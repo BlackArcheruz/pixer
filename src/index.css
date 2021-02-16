@@ -146,8 +146,9 @@ header{
   font-size: 20px;
 }
 .h-w-k-container{
-  width: 75%;
+  width: 50%;
   margin: auto;
+  text-align: center;
 }
 .media {
   display: flex;
@@ -183,7 +184,7 @@ header{
   align-items: center;
 }
 .order-container{
-  width: 65%;
+  width: 50%;
   margin: auto;
 }
 form {
@@ -308,11 +309,6 @@ footer{
   .media .content {
     flex: 1;
     padding: 10px;
-  }
-  .h-w-k-container{
-    width: 50%;
-    margin: auto;
-    text-align: center;
   }
   .col-md-2{
     flex-direction: column;
