@@ -3,6 +3,7 @@ import './Sidebar.css'
 
 const Sidebar = () => {
     return (
+      <div className="container">
         <Menu>
         <a className="menu-item" href="/">
         Bosh sahifa
@@ -23,6 +24,7 @@ const Sidebar = () => {
         Kontaktlar
         </a>
       </Menu>
+      </div>
     )
 }
 
