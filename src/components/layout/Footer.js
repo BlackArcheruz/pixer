@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <footer>
-            <div className="container site-footer">
+            <div className="footer site-footer">
            <div className="site-copy">
                 <h3>Copyright 2020</h3>
                 <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar tincidunt.</p>
