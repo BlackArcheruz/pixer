@@ -150,6 +150,9 @@ header{
   margin: auto;
   text-align: center;
 }
+.image{
+  margin: 10px auto;
+}
 .media {
   display: flex;
   align-items: center;
