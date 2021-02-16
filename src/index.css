@@ -133,7 +133,7 @@ header{
 .how-we-work{
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
 }
 .col-md-2{
   display: flex;
@@ -588,13 +588,19 @@ footer{
   .col-md-2{
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    margin: auto;
+  }
+  .col-md-2 p{
+    width: 100%;
+    margin: auto;
   }
   .how-we-work img{
     margin: 1rem 0;
     width: 100%;
   }
 }
-@media (min-width:1024px) and (max-width: 1366px){
+@media (min-width:1024px) and (max-width: 1280px){
   .navbar{
     height: auto;
   }
@@ -638,6 +644,12 @@ footer{
   .col-md-2{
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    margin: auto;
+  }
+  .col-md-2 p{
+    width: 100%;
+    margin: auto;
   }
   .how-we-work img{
     margin: 1rem 0;
