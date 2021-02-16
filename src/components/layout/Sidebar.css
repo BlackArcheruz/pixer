@@ -12,6 +12,7 @@
   .bm-burger-bars {
     background: #373a47;
     border-radius: 8px;
+    outline: none;
   }
   
   /* Color/shape of burger icon bars on hover*/
