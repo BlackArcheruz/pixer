@@ -600,7 +600,7 @@ footer{
     width: 100%;
   }
 }
-@media (min-width:1024px) and (max-width: 1280px){
+@media (min-width:1024px) and (max-width: 1279px){
   .navbar{
     height: auto;
   }
